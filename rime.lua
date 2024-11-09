@@ -75,6 +75,7 @@ is_in_user_dict = require("is_in_user_dict")
 cold_word_drop_processor = require("cold_word_drop.processor")
 cold_word_drop_filter = require("cold_word_drop.filter")
 
+auto_commit_code_processor =  require("auto_commit_code_processor")
 
 -- 暴力 GC
 -- 详情 https://github.com/hchunhui/librime-lua/issues/307
